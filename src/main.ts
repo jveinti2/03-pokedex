@@ -11,6 +11,10 @@ async function bootstrap() {
     new ValidationPipe({
       whitelist: true,
       forbidNonWhitelisted: true,
+      transform: true,
+      transformOptions: {
+        enableImplicitConversion: true, // transforma los parametros de menra implicita a los tipos dados en el DTO
+      },
     }),
   );
 
