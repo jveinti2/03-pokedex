@@ -8,7 +8,8 @@
 2. ejecutar `npm i`
 3. Tener CLI nest instalado `npm i -g @nest/cli`
 4. Levantar la base de datos `docker-compose up -d`
-5. Reconstruir bd con `http://localhost:300/api/v2/seed`
+5. Ejecutar `npm run start:dev`
+6. Reconstruir bd con `http://localhost:300/api/v2/seed`
 
 # Stack
 
